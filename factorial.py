@@ -14,12 +14,21 @@ def factorial(number):
 
 
 if __name__ == "__main__":
-    number = int(input("Enter number:"))
-    result = factorial(number)
-    print(result)
+    try: 
+
+        number = int(input("Enter number:"))
+        result = factorial(number)
+        print(result)
+
+
+
+    except ValueError:
+        print("Please enter valid integer.")
+
 
 
 
         
 
     
+
