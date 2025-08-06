@@ -8,7 +8,7 @@ def factorial(number):
     
     else :
         fact = 1
-        for i in range(1, number+1):
+        for i in range(2, number+1):
             fact *= i
         return(fact)
 
@@ -18,9 +18,7 @@ if __name__ == "__main__":
 
         number = int(input("Enter number:"))
         result = factorial(number)
-        print(result)
-
-
+        print("Factorial", result)
 
     except ValueError:
         print("Please enter valid integer.")
