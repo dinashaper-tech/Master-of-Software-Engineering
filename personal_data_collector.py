@@ -2,30 +2,30 @@
 
 class ListManipulator:
 
-    def __init__(self,name,age,adress):
+    def __init__(self,name,age,address):
         self.name = name
         self.age = age
-        self.adress = adress
+        self.address = address
    
  
     words = []
     def add_list(self):
         ListManipulator.words.append(("name:",self.name))
         ListManipulator.words.append(("age:",self.age))
-        ListManipulator.words.append(("adress:",self.adress))
+        ListManipulator.words.append(("address:",self.address))
         return ListManipulator.words
     
     def promotion_calculate(self, years):
-        self.age = age + years
-        return self.name, self.age, self.adress
+        self.age = self.age + years
+        return self.name, self.age, self.address
 
     
 if __name__ == "__main__":
     name = input("Enter your name: ")
     age = int(input("Enter your age: "))
-    adress = input("Enter your adress: ")
+    address = input("Enter your address: ")
 
-    data = ListManipulator(name,age,adress)
+    data = ListManipulator(name,age,address)
     details = data.add_list()
     print(details)
 
