@@ -16,4 +16,9 @@ if __name__ == "__main__":
 
     text = StringManipulator(content)
     count = text.word_count()
-    print(count)
+    print(count) #134046
+
+
+
+
+
