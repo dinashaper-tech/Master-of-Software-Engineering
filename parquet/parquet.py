@@ -28,7 +28,7 @@ class DatasetConverter:
 
 
 if __name__ == "__main__":
-    input_file = "tripadvisor_review.csv"
+    input_file = r"D:\Master of SE\Week1\parquet\tripadvisor_review.csv"
     output_file = "tripadvisor_review.parquet"
 
     converter = DatasetConverter(input_file, output_file)
