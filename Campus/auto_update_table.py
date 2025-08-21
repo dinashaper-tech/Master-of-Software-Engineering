@@ -1,4 +1,7 @@
-import sqlite3
+# You can add a new table named "Students" with three columns: Stu_ID, Stu_name, and Stu_address. 
+# Insert two sample records into Students, then display all rows from both the Users and Students tables.
+
+# import sqlite3
 
 # create connection
 conn = sqlite3.connect(":memory:")
