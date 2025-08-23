@@ -1,0 +1,24 @@
+Actors
+1- Student – main user who enrolls in courses and attends classes.
+2- Lecturer – teaches courses and manages classes.
+3- Administrator – Student
+
+Use Cases
+1.Register and update profile
+2.Enroll in course
+3.View timetable/ class Schedule
+4.Upload Assignment work
+5.View Results
+
+Lecturer
+1.Create and update course
+2.Schedule and manage classes
+3.Upload teaching materails
+4.Grading
+5.Adding Feedback 
+
+Admin
+1.Manage Student and Lecturer records.
+2.Approve course offering.
+3.Allocate classroom and class timetable.
+4.Generate reports(enrollment, performance, attendance)
