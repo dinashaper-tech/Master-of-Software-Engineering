@@ -1,0 +1,14 @@
+Student, Teacher, Subject and Class are the entities
+Student can attend many classes, and class can have Many students.
+Class can have only one subject, and one subject can have many classes.
+Teacher can teach many classes, and class can have only one teacher.
+
+Student : Class M:M
+Class : Subject M:1
+Teacher : Class 1:M
+
+Student - StudentID, Name, Major, Intake
+Teacher - TeacherID, Name
+Subject - SubjectID, Name
+Class - ClassID, SubjectID, TeacherID, Time
+Attend Table - StudentID, ClassID
